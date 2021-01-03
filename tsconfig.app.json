@@ -3,7 +3,9 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": [
+      "./node_modules/network-information-types"
+    ]
   },
   "files": [
     "src/main.ts",
